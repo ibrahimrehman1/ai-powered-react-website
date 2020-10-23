@@ -135,3 +135,23 @@ img.mr-3:hover{
 p{
   text-align: justify;
 }
+
+/* .chatbot{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+} */
+
+.chatbot > span{
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  z-index: 10;
+  font-size: 3rem;
+  color: red;
+}
+
+.chatbot > span:hover{
+  cursor: pointer;
+}
