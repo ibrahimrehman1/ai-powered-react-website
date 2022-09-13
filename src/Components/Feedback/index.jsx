@@ -3,7 +3,7 @@ import {Breadcrumb, Form, Button, ButtonGroup} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
 
-export function Feedback(){
+export default function Feedback(){
     return(
         <div className="container bread">
         <Breadcrumb>

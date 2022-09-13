@@ -3,7 +3,7 @@ import {Navbar, Nav} from "react-bootstrap";
 import {NavLink, Link} from "react-router-dom";
 
 
-export function Header(){
+export default function Header(){
     return(
         <Navbar expand="md" className="fixed-top" id="navbar">
             <Navbar.Brand className="text-white" id="media">

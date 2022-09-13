@@ -37,113 +37,104 @@
   }
 }
 
-
-@media screen and (max-width: 370px){
-  #media{
+@media screen and (max-width: 370px) {
+  #media {
     display: none !important;
   }
 }
 
-.media:focus{
+.media:focus {
   outline-width: 0px;
 }
 
-#footer > .container{
+#footer > .container {
   padding: 20px 50px;
 }
 
-#footer{
+#footer {
   position: relative;
   top: 150px;
   background-color: rgb(29, 33, 37);
   color: #818181;
 }
 
-.link{
+.link {
   color: #818181;
-} 
+}
 
-.link:hover{
+.link:hover {
   text-decoration: none;
   color: white;
 }
 
-#copyright{
+#copyright {
   background-color: #032e4e;
   padding: 0.8em;
   color: white;
-
 }
 
-#navbar{
+#navbar {
   background-color: #032e4e;
   box-shadow: 1px 1px 3px 1px black;
 }
 
-.navbar-nav > a{
+.navbar-nav > a {
   padding: 5px;
 }
 
-.navbar-nav > a:hover{
+.navbar-nav > a:hover {
   cursor: pointer;
   text-decoration: none;
   color: rgb(206, 206, 206) !important;
 }
 
-.navbar-light .navbar-toggler-icon{
+.navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.navbar-toggler{
+.navbar-toggler {
   border: 1px solid white !important;
 }
 
-.w-100{
+.w-100 {
   height: 400px;
 }
 
-img.mr-3{
+img.mr-3 {
   border-radius: 20px;
 }
 
-img.mr-3:hover{
+img.mr-3:hover {
   box-shadow: 1px 1px 5px 1px gray;
   cursor: pointer;
 }
 
-.logo{
+.logo {
   color: white;
 }
 
-.logo:hover{
+.logo:hover {
   text-decoration: none;
   color: rgb(206, 206, 206);
 }
 
-.bread{
+.bread {
   position: relative;
   top: 100px;
 }
 
-.card-head{
+.card-head {
   text-decoration: none !important;
 }
-.card-head:focus{
+.card-head:focus {
   box-shadow: none;
 }
 
-p{
+p {
   text-align: justify;
 }
 
-/* .chatbot{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  
-} */
-
-.chatbot > span{
+.chatbot > span {
   position: fixed;
   bottom: 30px;
   right: 15px;
@@ -152,6 +143,6 @@ p{
   color: red;
 }
 
-.chatbot > span:hover{
+.chatbot > span:hover {
   cursor: pointer;
 }
